@@ -1,0 +1,87 @@
+/* src/App.css */
+body {
+  background: linear-gradient(45deg, #83a4d4, #b6fbff);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.App {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-item input[type="text"] {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.todo-item input[type="text"]:focus {
+  outline: none;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-item button {
+  background: none;
+  border: none;
+  color: #f00;
+}
+
+.todo-item button:hover {
+  color: #d00;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.filters button {
+  background: none;
+  border: none;
+  color: #007bff;
+}
+
+.filters button:hover {
+  text-decoration: underline;
+}
