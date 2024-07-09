@@ -1,4 +1,4 @@
-# TaskMaster
+# Task Manager
 
 TaskMaster is a feature-rich task management application developed using React and TypeScript. This application allows users to manage their tasks efficiently with functionalities to add, edit, delete, and filter tasks. The UI is interactive and responsive, featuring animated backgrounds and modern design principles.
 
@@ -32,10 +32,10 @@ npm start
 Open your browser and go to http://localhost:5173 to see the application in action.
 
 **Usage**
-To add a new task, type the task description in the input field and click "Add Todo".
-To mark a task as complete or incomplete, click the checkbox next to the task.
-To edit a task, double-click on the task text, make your changes, and press Enter or click outside the input field.
-To delete a task, click the "Remove" button next to the task.
-Use the filter buttons to view all tasks, only completed tasks, or only incomplete tasks.
-Click "Clear Completed" to remove all completed tasks from the list.
+- To add a new task, type the task description in the input field and click "Add Todo".
+- To mark a task as complete or incomplete, click the checkbox next to the task.
+- To edit a task, double-click on the task text, make your changes, and press Enter or click outside the input field.
+- To delete a task, click the "Remove" button next to the task.
+- Use the filter buttons to view all tasks, only completed tasks, or only incomplete tasks.
+- Click "Clear Completed" to remove all completed tasks from the list.
 
